@@ -1,0 +1,42 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #4caf50;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 1em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  max-width: 900px;
+  margin: 2em auto;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+/* Estilos personalizados para cada sección... */
+
+#perfil img{
+    width: 200px;
+    height: auto;
+}
