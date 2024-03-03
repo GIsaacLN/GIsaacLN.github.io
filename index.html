@@ -1,54 +1,40 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <script src="js/scripts.js" defer></script>
+    <title>Portfolio | Home</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/estilos.css">
-  <script src="js/scripts.js" defer></script>
-  <title>Portafolio | Inicio</title>
-  <style>
-    .flag-icon {
-      margin-left: auto;
-    }
-    .flag-icon img {
-      height: 30px;
-      width: 30px;
-    }
-  </style>
-</head>
-
-<body>
-  <!-- Barra de navegación -->
-  <nav>
-<!--
-    <a href="index.html">Inicio</a>
-    <a href="proyectos.html">Proyectos</a>
-    <a href="experiencia.html">Experiencia</a>
-    <a href="certificaciones.html">Certificaciones</a>
--->
-    <div class="flag-icon">
-      <a href="index_en.html"><img src="img/united-states.png" alt="Inglés"></a>
-      <a href="index.html"><img src="img/spain.png" alt="Español"></a>
-    </div>
-  </nav>
-
-  <!-- Página de inicio -->
-  <section id="perfil">
-    <h1>Gustavo Isaac López Núñez</h1>
-    <div id="perfil-info">
-      <img src="img/perfil.jpg" alt="Imagen de perfil">
-      <p>Estudiante de Matemáticas Aplicadas y Computación en UNAM, actualmente me desempeño como Mentor de Desarrollo iOS con un enfoque en Swift. A pesar de estar en las primeras etapas de mi carrera, ya he acumulado experiencia en la organización de cursos y hackathons, así como en el desarrollo de aplicaciones innovadoras. Mi objetivo es seguir creciendo en este campo y busco activamente oportunidades que me permitan aplicar y expandir mis habilidades. Si crees que podríamos trabajar juntos, no dudes en contactarme.</p>
-    </div>
-    <section id="sobre-mi">
-      <h2>Sobre Mí</h2>
-      <p>Mi nombre es Gustavo Isaac López Núñez. Actualmente, estoy estudiando Matemáticas Aplicadas y Computación en la
-        UNAM. Tengo una pasión por el desarrollo y la programación y busco constantemente oportunidades para expandir
-        mis habilidades y conocimientos.</p>
+  <body>
+    <!-- Barra de navegación -->
+      <nav>
+        <div class="menu">
+          <a href="#perfil">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+          <div class="flag-icon">
+          <a href="index_es.html"><img src="img/spain.png" alt="Spanish" />Español</a>
+        </div>
+      </nav>
+    <!-- Home Page -->
+    <section id="perfil">
+      <h1>Gustavo Isaac López Núñez</h1>
+      <div id="perfil-info">
+        <img src="img/perfil.jpeg" alt="Profile Picture" />
+        <p>
+          iOS Developer currently enrolled in the Apple Developer Academy in Naples, Italy. With a strong background in applied mathematics and computer science, I'm passionate about iOS app development. In Mexico City, I mentored and organized successful iOS projects and hackathons. Let's connect and explore opportunities in the world of iOS!
+        </p>
+      </div>
     </section>
-
-    <section id="habilidades">
-      <h2>Habilidades</h2>
+    <section id="skills">
+      <h2>Skills</h2>
       <ul>
         <li>Swift</li>
         <li>C++</li>
@@ -61,61 +47,78 @@
       </ul>
     </section>
 
-    <section id="experiencia">
-      <h2>Experiencia</h2>
+    <section id="experience">
+      <h2>Experience</h2>
       <div>
-        <h3>Mentor en Laboratorio de Desarrollo iOS</h3>
-        <h4>2023 – Presente</h4>
-        <p>En mi papel de Mentor, organicé y coordiné varios cursos y hackathons para Swift, ayudando a otros a aprender y 
-        crecer en el desarrollo de iOS. Además, proporcioné soporte técnico y desarrollé estratégicamente un programa de 
-        mentoría, logrando un aumento significativo en la comprensión del lenguaje de programación Swift entre los desarrolladores novatos.</p>
-      </div>
-      <div>
-        <h3>Técnico Computacional</h3>
-        <h4>2019 – 2020</h4>
-        <p>Como Técnico Computacional, diseñé una base de datos personalizada y desarrollé el prototipo inicial de la página 
-        web de la empresa, lo que resultó en una mayor precisión de los datos y una reducción en el tiempo de entrada de datos.</p>
-      </div>
-          </section>
-
-    <section id="educacion">
-      <h2>Educación</h2>
-      <div>
-        <h3>Universidad Nacional Autónoma de México (UNAM), CDMX</h3>
-        <h4>Licenciatura en Matemáticas Aplicadas y Computación, 2020-2024</h4>
-        <p>Actualmente, estoy estudiando Matemáticas Aplicadas y Computación en la UNAM, donde estoy adquiriendo una sólida 
-        base en matemáticas y ciencias de la computación.</p>
-      </div>
-      <div>
-        <h3>Centro de Bachillerato Tecnológico Industrial y de Servicios, Michoacán</h3>
-        <h4>Técnico en Programación, 2017-2020</h4>
-        <p>Adquirí conocimientos sólidos en programación y desarrollo de software, con un enfoque especial en tecnologías web 
-        y bases de datos.</p>
+        <h3>Mentor in iOS Development Lab</h3>
+        <h4>Feb 2022 – Sep 2023</h4>
+        <p>
+          As a mentor at the iOS Development Lab, I led independent projects as
+          a programmer, utilizing SwiftUI. I also managed version control and
+          team collaboration using Git, and implemented various iOS frameworks
+          for app development. Additionally, I organized Hackathons, coordinated
+          Swift courses, and provided guidance to lab users.
+        </p>
       </div>
     </section>
 
-    <section id="proyectos">
-      <h2>Proyectos y Concursos</h2>
+    <section id="education">
+      <h2>Education</h2>
+      <div>
+        <h3>National Autonomous University of Mexico (UNAM), CDMX</h3>
+        <h4>Bachelor of Applied Mathematics and Computing, 2020-2024</h4>
+        <p>
+          Currently, I am studying Applied Mathematics and Computing at UNAM,
+          where I am acquiring a solid foundation in mathematics and computer
+          science.
+        </p>
+      </div>
+      <div>
+        <h3>
+          Industrial and Service Technological Baccalaureate Center, Michoacán
+        </h3>
+        <h4>Programming Technician, 2017-2020</h4>
+        <p>
+          I acquired solid knowledge in programming and software development,
+          with a special focus on web technologies and databases.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects and Contests</h2>
       <div>
         <h3>iOS Community Changemakers H4CKATHON 2023</h3>
-        <p>Participé en el desarrollo de una aplicación de escaneo de alimentos durante un hackathon, utilizando tecnologías como 
-        SwiftUI, CoreML, Vision y CoreData. Colaboré en la construcción de una API personalizada que mejoró la integración y 
-        manejo de datos de la aplicación.</p>
+        <p>
+          I participated in the development of a food scanning application
+          during a hackathon, using technologies like SwiftUI, CoreML, Vision,
+          and CoreData. I collaborated in building a custom API that improved
+          the app's integration and data handling.
+        </p>
       </div>
       <div>
-        <h3>Dígame (Ganador de Hackathon)</h3>
-        <p>Contribuí en el desarrollo de una innovadora plataforma de interpretación y aprendizaje del lenguaje de señas, 
-        creando un prototipo de aplicación utilizando Swift y gestionando el control de versiones a través de GitHub.</p>
+        <h3>Dígame (Hackathon Winner)</h3>
+        <p>
+          I contributed to the development of an innovative sign language
+          interpretation and learning platform, creating a prototype application
+          using Swift and managing version control through GitHub.
+        </p>
       </div>
-    </section>    
+    </section>
 
-    <section id="contacto">
-      <h2>Contacto</h2>
+    <section id="contact">
+      <h2>Contact</h2>
       <ul>
-        <li><a href="https://github.com/GIsaacLN" target="_blank">GitHub</a></li>
-        <li><a href="https://linkedin.com/in/GIsaacLN" target="_blank">LinkedIn</a></li>
-        <li><a href="mailto:isaac.lopez.1b@gmail.com">Correo electrónico</a></li>
+        <li>
+          <a href="https://github.com/GIsaacLN" target="_blank">GitHub</a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/GIsaacLN" target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li><a href="mailto:isaac.lopez.1b@gmail.com">Email</a></li>
       </ul>
     </section>
-</body>
+  </body>
 </html>
